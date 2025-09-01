@@ -78,7 +78,7 @@ const StreakDisplay: React.FC<StreakDisplayProps> = ({ tasks, streakData }) => {
       <div className="mt-4">
         <h3 className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-2">Last 3 weeks</h3>
         <div className="grid grid-cols-7 gap-1 mb-2">
-          {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, idx) => (
+          {['T', 'W', 'T', 'F', 'S', 'S','M'].map((day, idx) => (
             <div key={idx} className="text-center text-xs text-gray-500 dark:text-gray-400">
               {day}
             </div>
